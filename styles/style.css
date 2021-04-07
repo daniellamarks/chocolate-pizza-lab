@@ -51,4 +51,36 @@ body {
     align-items: center;
 }
 
-.span {}
+.choco-text-wrap h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0;
+
+}
+
+.choco-header {
+    display: flex;
+    justify-content: space-between;
+}
+.print {
+    height: 15px;
+    width: 15px;
+}
+.print-wrap{
+    display: flex;
+    align-content: flex-end;
+    
+}
+.posted {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-family: monospace;
+    color: gray;
+    align-self: flex-end;
+}
+.print-wrap span {
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-family: monospace;
+    color: gray;
+}
