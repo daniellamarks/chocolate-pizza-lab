@@ -1,3 +1,7 @@
+* {
+    border: 1px solid black;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,4 +9,44 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+    width: 100%;
+}
+
+.content {
+    width: 80%
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+
+.logo-section-wrapper {
+    display: flex;
+}
+
+.logo {
+    vertical-align: left;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.delicious {
+    font-family:  'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.best-food {
+    text-transform: uppercase;
+    font-family: monospace;
+    color: gray;
+}
+
+.social-media-wrapper {
+    display: flex;
+    align-items: center;
 }
