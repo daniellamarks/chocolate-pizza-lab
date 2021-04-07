@@ -67,8 +67,8 @@ body {
 }
 .print-wrap{
     display: flex;
-    align-content: flex-end;
-    
+    align-items: flex-end;
+    padding-bottom: 1rem;
 }
 .posted {
     margin-top: 0;
@@ -76,11 +76,26 @@ body {
     font-size: .75rem;
     font-family: monospace;
     color: gray;
-    align-self: flex-end;
 }
 .print-wrap span {
     text-transform: uppercase;
     font-size: .75rem;
     font-family: monospace;
     color: gray;
+}
+
+.article {
+    display: 
+}
+
+
+.choco-pizza-img img {
+    width: 100%;
+}
+
+.article p {
+    text-indent: 30pt;
+    letter-spacing: -.02rem;
+    color: rgb(101, 101, 101);
+    margin-bottom: 2rem;
 }
