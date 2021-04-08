@@ -99,3 +99,24 @@ body {
     color: rgb(101, 101, 101);
     margin-bottom: 2rem;
 }
+.top-border, .bio-border {
+    background-image: url('../assets/hr-img.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+/* ul {
+    display: inline-block;
+} */
+.list {
+    display: flex;
+    background-image: url('../assets/list-bg.png');
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
